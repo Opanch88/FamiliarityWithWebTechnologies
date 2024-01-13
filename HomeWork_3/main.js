@@ -1,5 +1,6 @@
+const userName = prompt("Введите Ваше имя:");
+
 function greeting() {
-    var userName = prompt("Введите Ваше имя:");
     if (userName) {
         console.log("Привет, " + userName + "!");
     } else {
